@@ -1,4 +1,4 @@
 import qrcode as qr
 
-qr.make("https://www.youtube.com/")
-qr.image("youtube.png")
+img = qr.make("https://www.youtube.com/")
+img.save("youtube.png")
